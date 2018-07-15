@@ -1,0 +1,28 @@
+{
+  "name": "cjdnsaddr",
+  "version": "1.0.0",
+  "description": "Parse and serialize cjdns addresses to inter-router on wire format",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test.js",
+    "flow": "./node_modules/.bin/flow",
+    "lint": "jshint --verbose --config .jshintrc --exclude-path .jshintignore ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cjdelisle/cjdnsaddr.git"
+  },
+  "author": "Caleb James DeLisle",
+  "license": "GPL-3.0+",
+  "bugs": {
+    "url": "https://github.com/cjdelisle/cjdnsaddr/issues"
+  },
+  "homepage": "https://github.com/cjdelisle/cjdnsaddr#readme",
+  "devDependencies": {
+    "flow-bin": "^0.76.0",
+    "jshint": "^2.9.5"
+  },
+  "dependencies": {
+    "cjdnskeys": "^0.1.5"
+  }
+}
